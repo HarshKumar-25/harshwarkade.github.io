@@ -32,3 +32,20 @@ a {
     color: #2563eb;
     text-decoration: none;
 }
+.social-links {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.social-links img {
+    width: 28px;
+    height: 28px;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+.social-links img:hover {
+    opacity: 1;
+}
+
